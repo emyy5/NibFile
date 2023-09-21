@@ -16,6 +16,8 @@
 		91F684042ABCC008003F0F0F /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F684032ABCC008003F0F0F /* MyTableViewController.swift */; };
 		91F684072ABCC057003F0F0F /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F684052ABCC057003F0F0F /* MyTableViewCell.swift */; };
 		91F684082ABCC057003F0F0F /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F684062ABCC057003F0F0F /* MyTableViewCell.xib */; };
+		91F6840A2ABCC77C003F0F0F /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F684092ABCC77C003F0F0F /* MyView.swift */; };
+		91F6840C2ABCC7C6003F0F0F /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F6840B2ABCC7C6003F0F0F /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		91F684032ABCC008003F0F0F /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		91F684052ABCC057003F0F0F /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		91F684062ABCC057003F0F0F /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		91F684092ABCC77C003F0F0F /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		91F6840B2ABCC7C6003F0F0F /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				91F684032ABCC008003F0F0F /* MyTableViewController.swift */,
 				91F684052ABCC057003F0F0F /* MyTableViewCell.swift */,
 				91F684062ABCC057003F0F0F /* MyTableViewCell.xib */,
+				91F684092ABCC77C003F0F0F /* MyView.swift */,
+				91F6840B2ABCC7C6003F0F0F /* View.xib */,
 			);
 			path = NibFileDemo1;
 			sourceTree = "<group>";
@@ -135,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91F683FC2ABCBF7D003F0F0F /* LaunchScreen.storyboard in Resources */,
+				91F6840C2ABCC7C6003F0F0F /* View.xib in Resources */,
 				91F684082ABCC057003F0F0F /* MyTableViewCell.xib in Resources */,
 				91F683F92ABCBF7D003F0F0F /* Assets.xcassets in Resources */,
 				91F683F72ABCBF7B003F0F0F /* Main.storyboard in Resources */,
@@ -148,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F6840A2ABCC77C003F0F0F /* MyView.swift in Sources */,
 				91F683F42ABCBF7B003F0F0F /* ViewController.swift in Sources */,
 				91F683F02ABCBF7B003F0F0F /* AppDelegate.swift in Sources */,
 				91F683F22ABCBF7B003F0F0F /* SceneDelegate.swift in Sources */,
